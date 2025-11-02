@@ -11,7 +11,7 @@ int main()
 
     // XOR (^) returns 1 only if the bits are different.
 
-    // NOT (~) flips the bits (converts 1 to 0 and 0 to 1).
+    // NOT (~) flips the bits (converts 1 to 0 and 0 to 1). 
 
 
       // 5 and 2 
@@ -58,12 +58,14 @@ Answer in Binary ==>        0111        ===>   Answer in decimal = 7
     int a = 5 ; // convert into binary code. ---> 5 in binary = 0101
     int b= 2; //  convert into binary code. ---> 2 in binary = 0010
 
+    cout<<"Bitwise & : (a & b) :"<<(a & b)<<endl;
+    cout<<"Bitwise | : (a | b) :"<<(a | b)<<endl;
+    cout<<"Bitwise ^ : (a ^ b) :"<<(a ^ b)<<endl;
+    cout<<"Bitwise ~ : ~a :"<<~a<<endl;
+    cout<<"Bitwise ~ : ~b :"<<~b<<endl;
+    
 
-    cout<<"Bitwise & (a & b) :"<<(a & b)<<endl;
-    cout<<"Bitwise | (a | b) :"<<(a | b)<<endl;
-    cout<<"Bitwise ^ (a ^ b) :"<<(a ^ b)<<endl;
-    cout<<"Bitwise ~a :"<<~a<<endl;
-    cout<<"Bitwise ~b :"<<~b<<endl;
+
 
 
     
