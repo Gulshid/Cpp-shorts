@@ -7,26 +7,27 @@
     *****                           12345        
 
 */
-
 #include<iostream>
 using namespace std;
 
 int main()
 {
-    int num;
-    cout<<"Enter the value for num:";
-    cin>>num;
+    int value ;
+    cout<<"Enter the value for Number of Row That you want :";
+    cin>>value;
 
 
-    for(int i =1; i <= num; i++) // for row 
+    for(int a = value; a >=1; a--)
     {
-        for(int j = 1; j <= i; j++ ) // for displaying the *
+        for(int b =1; b<=a; b++)
         {
-            // cout<<"*";
-            cout<<j<<" ";
+            cout<<b<<" ";
         }
         cout<<endl;
     }
+}
+
+
 
 
 
@@ -41,17 +42,3 @@ int main()
 
 */
 
-    int n;
-    cout<<"Enter the value for n :";
-    cin>>n;
-
-    for(int a = n; a>=1; a--) // for row 
-    {
-        for(int b = 1; b <= a; b++) // for displaying the * or digits
-        {
-            // cout<<"*";
-            cout<<b<<" ";
-        }
-        cout<<endl;
-    }
-}
