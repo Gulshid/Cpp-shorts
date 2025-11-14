@@ -12,33 +12,17 @@ using namespace std;
 
 int main()
 {
-    int value ;
-    cout<<"Enter the value for Number of Row That you want :";
-    cin>>value;
+    int row;
+    cout<<"Enter the value for row :";
+    cin>>row;
 
-
-    for(int a = value; a >=1; a--)
+    for( int i = 1; i <= row; i++) // use for row
     {
-        for(int b =1; b<=a; b++)
+        for(int z = 1; z <= i; z++ ) // use for displaying these row
         {
-            cout<<b<<" ";
+            // cout<<"*"<<" ";
+            cout<<z<<" ";
         }
         cout<<endl;
     }
 }
-
-
-
-
-
-/*
-                Pattern No 2
-*****                           12345
-****            or              1234
-***                             123
-**                              12
-*                               1
-
-
-*/
-

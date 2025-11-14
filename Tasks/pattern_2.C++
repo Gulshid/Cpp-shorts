@@ -1,39 +1,33 @@
-/*
-            *
-           ***
-          *****
-         *******
-        *********
 
-    */
+/*
+                Pattern No 2
+*****                           12345
+****            or              1234
+***                             123
+**                              12
+*                               1
+
+
+*/
 
 #include<iostream>
 using namespace std;
 
 int main()
 {
-    int number;
-    cout<<"Enter the value for number:";
-    cin>>number;
+    int row;
+    cout<<"Enter the value for row: ";
+    cin>>row;
 
-
-    for(int i = 1; i<=number;  i++)
+    for( int x = row; x >= 1; x--)
     {
-        // for spaces
-        for(int j = 1; j<=number-i;  j++)
+        for (int y = 1; y <= x; y++)
         {
-            cout<<" ";
+            // cout<<"*"<<" ";
+            cout<<y<<" ";
         }
-
-        // for Asterik (*)
-        for(int z = 1; z<= 2 * i - 1; z++)
-        {
-            cout<<"*";
-        }
-
         cout<<endl;
     }
 }
-
 
 
