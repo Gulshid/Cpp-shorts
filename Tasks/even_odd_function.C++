@@ -1,34 +1,39 @@
-// Task : Even and Odd function
+// Task : Check Even and Odd 
 #include<iostream>
 using namespace std;
 
-// function for Even and Odd
+// Even / Odd function
 int Even_Odd(int z)
 {
-    // logic for  Even 
-    if (z % 2 == 0)
+    // Even logic 
+    if(z % 2 == 0)
     {
-        cout<<"The Number :"<<z<<" that  you are entered is Even***"<<endl;
+        return z;
     }
 
-    // logic for odd
-    else if (z % 2 == 1)
+    // Odd logic
+    else if(z % 2 == 1)
     {
-        cout<<"The Number :"<<z<<" that you are entered is Odd***"<<endl;
-
+        return z;
     }
-
 }
 
 
 int main()
 {
-    // Call 
-    int x;
-    cout<<"Enter the value for x :";
-    cin>>x;
+    int var;
+    cout<<"Enter the value for var :";
+    cin>>var;
 
-    cout<<"Even Odd is : "<<endl;
-    cout<<Even_Odd(x)<<endl;
+    int result = Even_Odd(var);
+    if (result % 2 == 0)
+    {
+        cout<<"The Number "<<result<<" is Even Number "<<endl;
+    }
+
+    else
+    {
+        cout<<"The Number "<<result<<" is Odd Number "<<endl;
+    }
 
 }
