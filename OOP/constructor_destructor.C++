@@ -1,27 +1,33 @@
-// Consturctor and Destructor in OOP
+// Constructor and Destructor in OOP
 #include<iostream>
 using namespace std;
 
-class A{
-
+class A
+{
     private:
-    int x;
+    int a;
 
     public:
-    A(){
-        cout<<"ENter the value for x :";
-        cin>>x;
+    // constructor
+    A()
+    {
+        cout<<"Enter the value for a :";
+        cin>>a;
 
-        cout<<"The value of x :"<<x<<endl;
+        cout<<"The value of a is :"<<a<<endl;
     }
 
-    ~A(){
-        cout<<"The value of x is "<<x<<" is destroyed "<<endl;
+    // destructor
+    ~A()
+    {
+        cout<<"The value of a "<<a<<" is Destroyed"<<endl;
+
     }
+
 };
 
 int main()
 {
-    A a;
+    A obj;
 
 }
