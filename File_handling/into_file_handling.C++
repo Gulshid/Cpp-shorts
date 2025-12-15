@@ -32,7 +32,7 @@ Basic Operations in File Handling:
     Read data from a file
     Write data to a file
     Append data to a file
-    Update / Modify file content
+   Update / Modify file content 
 _______________________________
 format of file :
 .txt → Text file
